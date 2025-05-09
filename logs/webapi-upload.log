@@ -1,0 +1,19 @@
+2025-05-09 14:38:08.278 [main] INFO  com.webapi.FileUploadApplication - Starting FileUploadApplication using Java 11.0.27 on DESKTOP-6KHAJ0N with PID 35584 (D:\code\webapi_upload\target\classes started by 123 in D:\code\webapi_upload)
+2025-05-09 14:38:08.282 [main] DEBUG com.webapi.FileUploadApplication - Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-05-09 14:38:08.284 [main] INFO  com.webapi.FileUploadApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-09 14:38:11.272 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-05-09 14:38:11.308 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-09 14:38:11.323 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-09 14:38:11.325 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-05-09 14:38:11.561 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-09 14:38:11.563 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3200 ms
+2025-05-09 14:38:11.659 [main] INFO  c.w.controller.FileUploadController - 初始化上传目录: ./uploads
+2025-05-09 14:38:12.086 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-09 14:38:12.141 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-05-09 14:38:12.164 [main] INFO  com.webapi.FileUploadApplication - Started FileUploadApplication in 4.99 seconds (JVM running for 5.888)
+2025-05-09 14:38:48.660 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-09 14:38:48.661 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-09 14:38:48.662 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-05-09 14:38:48.971 [http-nio-8080-exec-1] INFO  c.w.controller.FileUploadController - 开始处理文件上传请求
+2025-05-09 14:38:48.972 [http-nio-8080-exec-1] DEBUG c.w.controller.FileUploadController - 原始文件名: 0217项目设备进度一览(3).xlsx
+2025-05-09 14:38:49.022 [http-nio-8080-exec-1] INFO  c.w.controller.FileUploadController - 文件上传成功: b725b596-a844-424e-ae06-6636578ffad6.xlsx
